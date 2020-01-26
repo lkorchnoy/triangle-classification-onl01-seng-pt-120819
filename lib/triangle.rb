@@ -16,13 +16,8 @@ if side_one = side_two + side_three
       it's a triangle
     end 
   end
+end  
   
-  
-  
-
-
-
-
 class TriangleError < StandardError
   def message
     "The sum of the lengths of any two sides of a triangle always exceeds the length of the third side."
